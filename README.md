@@ -642,3 +642,13 @@ significant for a parasitized cell. In this two cases it's
 understandable why the model predicts this images as parasitized.
 
 </div>
+
+### Conclusion
+
+The model has an accuracy and a true positive rate around 95%.
+These values a very good and show that parasitized malaria cells are really good detectable by a model.
+Checking out the feature importance within the neural net
+gives a good feeling which features are relevant and have a big impact on
+the model output. Analysing correct predicted *parasitized* and *uninfected* cases show in which manner the presence or absence of a
+feature impact the output. With this knowledge it is explainable why
+incorrectly predicted images were interpreted this way.
